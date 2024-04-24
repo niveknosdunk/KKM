@@ -1,6 +1,8 @@
 # KKM
 implementation of the King-Knudson-Mramor algorithm in discrete Morse theory
 
+This software requires QHull: http://qhull.org/  
+
 These instructions originally written by Henry King in 2005: https://math.umd.edu/~hking/MorseExtract.html 
 
 This software implements an algorithm from the paper Generating discrete Morse functions from point data by Henry King, Kevin Knudson, and Neža Mramor.  This algorithm takes a function on the vertices of a 3 dimensional simplicial complex and converts it into a discrete Morse function in the sense of Forman.  It also cancels pairs of critical simplices which are connected by a single gradient path and whose values differ by less than a prescribed persistence.
